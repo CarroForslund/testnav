@@ -10,7 +10,15 @@ namespace TestNav.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "Navigation Test Page";
+            ViewBag.Message = "Start Page";
+
+            return View();
+        }
+        public ActionResult About()
+        {
+            ViewBag.Title = "Navigation Test Page";
+            ViewBag.Message = "About Page";
 
             return View();
         }
