@@ -1,1 +1,3 @@
-﻿import {Component} from 'angular2/angular2'; //module flag and cannot find error
+﻿export class AppComponent { }; //module flag error
+
+import {Component} from 'angular2/core'; 
